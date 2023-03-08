@@ -1,0 +1,116 @@
+/* ================= VARIABLES ================= */
+:root {
+  --primary-font-family: 'Open Sans', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color-theme-light: #303030;
+  --secondary-text-color-theme-light: #555555;
+  --primary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-dark: #9da4bd;
+  --accent-color: #ff6c00;
+}
+/* ================= /VARIABLES ================= */
+
+/* ================= COMMON ================= */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+/* ================= /COMMON ================= */
+
+/* ================= COMPONENTS ================= */
+.feedback-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  /* color: var(--primary-text-color-theme-dark); */
+}
+
+.feedback-link:hover,
+.feedback-link:focus {
+  background-color: var(--accent-color);
+}
+
+.media-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.media-list-link:hover,
+.media-list-link:focus {
+  color: var(--accent-color);
+}
+
+.suptitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.suptitle-theme-dark {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.suptitle-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+/* ================= /COMPONENTS ================= */
+
+/* ================= HEADER ================= */
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* color: var(--primary-text-color-theme-dark); */
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-tel-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  /* color: var(--primary-text-color-theme-dark); */
+}
+
+.contact-tel-link:hover,
+.contact-tel-link:focus {
+  color: var(--accent-color);
+}
+/* ================= /HEADER ================= */
+
+/* ================= HERO ================= */
+.hero-title {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  /* color: var(--primary-text-color-theme-dark); */
+}
+/* ================= /HERO ================= */
